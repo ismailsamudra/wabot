@@ -94,9 +94,9 @@ const client = new Client({
       '--disable-gpu'
     ],
   },
-      authStrategy: new LegacySessionAuth({
+//       authStrategy: new LegacySessionAuth({
         session: sessionCfg
-    })
+//     })
 });
 
 let status = "NOT READY";
